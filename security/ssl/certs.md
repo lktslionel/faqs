@@ -42,12 +42,15 @@ sudo docker run -it --rm --name certbot \
   -d 'shop.dev.company-name.io' \
 ```
 
+> In the process, you will be prompt to validate the ownership of thoses domains.
+> Please, follow those instructions and everything should go fine.
+>
+> I recommend the DNS validation because it is easy than the webserver validation challenge.
+
+
 Add any number of domain at the end of the command wih the option `-d <your-domain>`.
 
 All your generated certificates will be present in the working directory at paths `/tmp/letsencrypt/etc/live/`.
-
-
-#### Solution
 
 
 [Generate a free SSL Certificate - LetsEncrypt]: #generate-a-free-ssl-certificate--letsencrypt
