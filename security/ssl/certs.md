@@ -44,6 +44,11 @@ sudo docker run -it --rm --name certbot \
 
 Add any number of domain at the end of the command wih the option `-d <your-domain>`.
 
+All your generated certificates will be present in the working directory at paths `/tmp/letsencrypt/etc/live/`.
+
+
+#### Solution
+
 
 [Generate a free SSL Certificate - LetsEncrypt]: #generate-a-free-ssl-certificate--letsencrypt
 
